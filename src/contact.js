@@ -1,3 +1,3 @@
 export default function contactPage() {
-    alert("this is the contact page!")
+    var contentDiv = document.getElementById("content");
 }
