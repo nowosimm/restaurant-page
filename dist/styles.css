@@ -1,33 +1,110 @@
 html, body {
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
-.backgroundImg {
-    background-image: url('images/backgroundImage.jpeg');
-    height: 1000px;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    opacity: 80%;
+/* home page */
+.navBar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px 60px;
 }
 
-.header {
+.headerDiv {
     display: flex;
+    flex-direction: row;
+}
+
+.headerDiv p {
+    padding-left: 20px;
+}
+
+.headerText {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mainImgContainer {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+}
+.mainImg {
+    height: auto;
+    width: 95%;
+    opacity: 80%;
+    display: flex;
+    place-items: center;
+    border: 20px;
+
 }
 
 .buttonContainer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .buttons {
     height: 35px;
     width: 100px;
-    margin: 15px;
+    margin: 10px;
     border: 0px;
     border-radius: 8px;
+}
+
+/* menu page */
+
+.imageOne, .imageTwo, .imageThree, .imageFour {
+    height: 425px;
+    width: auto;
+   
+
+}
+.menuContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 10px;
+    padding: 3% 15%;
+    place-items: center;
+
+}
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* contact page */
+
+.locationImg {
+    height: 500px;
+    width: auto;
+}
+
+.subheaderContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 10%;
+}
+
+.subheader {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
 }
