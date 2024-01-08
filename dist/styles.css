@@ -93,7 +93,9 @@ html, body {
 .subheaderContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 10%;
+    padding: 2% 10%;
+    column-gap: 30px;
+    place-items: center;
 }
 
 .subheader {
@@ -108,3 +110,4 @@ html, body {
     align-items: center;
     padding-top: 5%;
 }
+

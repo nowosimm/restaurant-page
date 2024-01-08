@@ -28,10 +28,10 @@ export default function contactPage() {
     hoursHeader.textContent = "Hours"
 
     var openHours = document.createElement("p");
-    openHours.textContent = "wednesday - sunday: 8a - 2p"
+    openHours.textContent = "wed - sun: 8a - 2p"
 
     var closedHours = document.createElement("p");
-    closedHours.textContent = "monday + tuesday: closed"
+    closedHours.textContent = "mon + tues: closed"
 
         // address
     
